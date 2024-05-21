@@ -85,5 +85,6 @@ dotnet test
 - PUT /api/product/{id}: Update an existing product (requires authentication)
 - DELETE /api/product/{id}: Delete a product (requires authentication)
 
-* For performance testing of applications (like CRUD, Authentication, ...) I used postman.
-* Also I used Microsoft Visual Studio 2022 in this project.
+
+For performance testing of applications (like CRUD, Authentication, ...) I used postman.
+Also I used Microsoft Visual Studio 2022 in this project.
