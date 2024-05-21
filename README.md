@@ -77,6 +77,8 @@ dotnet test
 - You will receive a JWT token which you should include in the Authorization header of subsequent requests.
 
 ## Endpoints
+- POST /api/Auth/register: Register user
+- POST /Auth/login: Login user by Username and Password
 - GET /api/product: Retrieve all products
 - GET /api/product/{id}: Retrieve a product by ID
 - POST /api/product: Create a new product (requires authentication)
