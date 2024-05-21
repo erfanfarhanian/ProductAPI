@@ -77,11 +77,11 @@ dotnet test
 - You will receive a JWT token which you should include in the Authorization header of subsequent requests.
 
 ## Endpoints
-- GET /api/products: Retrieve all products
-- GET /api/products/{id}: Retrieve a product by ID
-- POST /api/products: Create a new product (requires authentication)
-- PUT /api/products/{id}: Update an existing product (requires authentication)
-- DELETE /api/products/{id}: Delete a product (requires authentication)
+- GET /api/product: Retrieve all products
+- GET /api/product/{id}: Retrieve a product by ID
+- POST /api/product: Create a new product (requires authentication)
+- PUT /api/product/{id}: Update an existing product (requires authentication)
+- DELETE /api/product/{id}: Delete a product (requires authentication)
 
 * For performance testing of applications (like CRUD, Authentication, ...) I used postman.
 * Also I used Microsoft Visual Studio 2022 in this project.
